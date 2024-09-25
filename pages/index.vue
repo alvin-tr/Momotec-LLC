@@ -4,6 +4,9 @@
     <CommonSectionWelcome />
     <CommonSectionOurClients />
     <CommonSectionAboutUs />
+    <CommonSectionChooseSolutions />
+    <CommonSectionTechUse />
+    <CommonSectionServices />
   </div>
 </template>
 
