@@ -1,6 +1,12 @@
 <template>
-  <div class="w-full bg-white py-[60px] flex items-center justify-center">
-    <div class="max-w-[1140px] w-full">
+  <div
+    class="w-full bg-white py-[60px] flex items-center justify-center max-lg:px-[30px]"
+  >
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      class="max-w-[1140px] w-full"
+    >
       <div
         class="w-full mb-[30px] flex flex-col items-center justify-center relative"
       >

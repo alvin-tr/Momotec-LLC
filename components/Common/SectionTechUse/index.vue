@@ -1,14 +1,23 @@
 <template>
   <div class="py-[60px] w-full flex justify-center">
-    <div class="max-w-[1140px] flex flex-row">
+    <div class="max-w-[1140px] flex flex-row w-full max-lg:px-[30px]">
       <!-- 1 -->
-      <div class="w-[50%] px-[15px]">
-        <img src="/img/skills.png" alt="" />
+      <div
+        data-aos="fade-up-right"
+        data-aos-duration="1000"
+        class="w-[50%] px-[15px] max-lg:flex max-lg:items-center"
+      >
+        <img class="max-lg:max-w-[410px]" src="/img/skills.png" alt="" />
       </div>
+
       <!-- 2 -->
-      <div class="w-[50%] px-[15px]">
+      <div
+        data-aos="fade-up-left"
+        data-aos-duration="1000"
+        class="w-[50%] px-[15px]"
+      >
         <h3
-          class="text-[32px] text-light-blue mb-[8px] font-bold font-[Poppins]"
+          class="text-[32px] text-dark-blue mb-[8px] font-bold font-[Poppins]"
         >
           Technologies we use
         </h3>
@@ -17,10 +26,12 @@
         </p>
 
         <CommonSectionTechUsePercentTage
-          v-for="item in percent"
+          v-for="(item, index) in percent"
           :key="item.label"
           :label="item.label"
           :quantity="item.quantity"
+          :aos-type="fade - right"
+          :delay="index * 500"
         >
         </CommonSectionTechUsePercentTage>
       </div>

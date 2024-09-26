@@ -2,7 +2,11 @@
   <div class="w-full bg-[#F3F5FA] py-[60px] flex justify-center">
     <div class="max-w-[1800px] w-full py-[60px] flex flex-row justify-center">
       <!-- 1 -->
-      <div class="px-[100px] flex flex-col w-[60%]">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        class="px-[100px] flex flex-col w-[60%]"
+      >
         <p class="text-[34px] text-[#37517E] mb-[8px] font-normal">
           Why Choose Momotec LLC as Your Partner?
         </p>
@@ -22,10 +26,16 @@
         </CommonSectionChooseSolutionsItemChooseSolutions>
       </div>
       <!-- 2 -->
-      <div class="w-[40%] px-[15px] flex item-center justify-center">
-        <div class="w-full h-full flex item-center justify-center">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        class="w-[40%] px-[15px] flex item-center justify-centermax-xl: items-center"
+      >
+        <div
+          class="w-full h-full flex item-center justify-center max-xl: items-center"
+        >
           <img
-            class="max-h-[600px] max-w-[658px]"
+            class="max-h-[600px] max-w-[658px] w-full max-xl:max-w[500px] max-xl:max-h-[400px]"
             src="/img/why-us.png"
             alt=""
           />

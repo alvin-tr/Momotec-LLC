@@ -2,6 +2,8 @@
   <div class="py-[60px] w-full flex flex-col items-center bg-light-gray">
     <div class="max-w-[1140px] w-full">
       <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         class="w-full mb-[30px] flex flex-col items-center justify-center relative"
       >
         <p
@@ -22,13 +24,16 @@
           </p>
         </div>
         <!-- card -->
-        <div class="flex flex-row justify-between">
+        <div
+          class="flex flex-row justify-between w-full mt-[30px] max-lg:flex-col max-lg:px-[45px]"
+        >
           <CommonSectionServicesServiceCards
-            v-for="item in cards"
+            v-for="(item, index) in cards"
             :key="item.title"
             :icon="item.icon"
             :title="item.title"
             :content="item.content"
+            :data-aos-delay="200 + index * 200"
           ></CommonSectionServicesServiceCards>
         </div>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full overflow-hidden">
+  <div class="w-full overflow-hidden relative">
     <CommonHeader />
     <CommonSectionWelcome />
     <CommonSectionOurClients />
@@ -7,6 +7,11 @@
     <CommonSectionChooseSolutions />
     <CommonSectionTechUse />
     <CommonSectionServices />
+    <CommonSectionGetInTouch />
+    <CommonSectionContact />
+    <CommonFooter />
+
+    <CommonScrollToTopButton />
   </div>
 </template>
 
