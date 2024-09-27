@@ -11,6 +11,7 @@
       <div
         data-aos="fade-right"
         data-aos-delay="700"
+        data-aos-once="true"
         :style="{
           width: isAnimated ? width : '0%',
           transition: `width 1s ease-in-out `,

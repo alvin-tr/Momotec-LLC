@@ -1,10 +1,11 @@
 <template>
   <div
-    class="w-full bg-white py-[60px] flex items-center justify-center max-lg:px-[30px]"
+    class="w-full bg-white py-[60px] flex items-center justify-center max-lg:px-[30px] max-xs:px-[15px]"
   >
     <div
       data-aos="fade-up"
       data-aos-duration="1000"
+      data-aos-once="true"
       class="max-w-[1140px] w-full"
     >
       <div
@@ -24,18 +25,19 @@
       </div>
 
       <!-- des -->
-      <div class="flex flex-row">
+      <div class="flex flex-row max-md:flex-col">
         <!-- 1 -->
         <div
           v-for="item in des"
           :key="item.title"
-          class="max-w-[50%] px-[15px]"
+          class="max-w-[50%] px-[15px] max-md:w-full max-md:max-w-full max-md:mt-[24px]"
         >
           <p
-            class="text-[24px] text-[#444444] mb-[8px] leading-[28.8px] font-medium"
+            class="text-[24px] text-[#444444] mb-[8px] leading-[28.8px] font-medium max-md:leading-6"
           >
             {{ item.title }}
           </p>
+
           <div class="flex flex-col">
             <div
               v-for="itemdes in item.description"

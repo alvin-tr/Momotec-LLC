@@ -5,6 +5,7 @@
     :style="{
       backgroundImage: `url('/img/cta-bg.jpg')`,
       backgroundPositionY: backgroundPosition,
+      backgroundSize: 'cover',
     }"
   >
     <div
@@ -13,6 +14,7 @@
       <div
         data-aos="zoom-in"
         data-aos-duration="1000"
+        data-aos-once="true"
         class="max-w-[1140px] w-full flex items-center justify-between max-xl:px-[45px]"
       >
         <div class="w-full">
@@ -45,7 +47,11 @@ const backgroundPosition = ref("center");
 const handleScroll = () => {
   // Tính toán vị trí mới của background khi cuộn
   const scrollY = window.scrollY;
-  backgroundPosition.value = `${scrollY * 0.8}px`;
+  const screenCheck = window.innerWidth;
+
+  const fixParallax = screenCheck > 1024 ? 0.8 : 0;
+
+  backgroundPosition.value = `${scrollY * fixParallax}px`;
 };
 
 // Lắng nghe sự kiện cuộn khi component được mount

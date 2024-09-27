@@ -9,10 +9,11 @@
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
-        class="w-[50%] px-[15px] flex flex-col items-start justify-center max-md:w-full max-md:items-center max-md:order-2"
+        data-aos-once="true"
+        class="w-[50%] px-[15px] flex flex-col items-start justify-center max-md:w-full max-md:items-center max-md:order-2 max-xs:w-full max-xs:items-center"
       >
         <p
-          class="text-white text-[48px] mb-[10px] font-[700] leading-[56px] max-md:text-[28px] max-md:mb-0"
+          class="text-white text-[48px] mb-[10px] font-[700] leading-[56px] max-md:text-[28px] max-md:mb-0 max-xs:text-center max-xs:leading-[30px] max-xs:text-[25px] max-xs:mt-[20px] max-xs:w-full"
         >
           Welcome to Momotec LLC
         </p>
@@ -31,6 +32,7 @@
       <div
         data-aos="zoom-in"
         data-aos-duration="1000"
+        data-aos-once="true"
         class="w-[50%] px-[15px] max-md:flex max-md:items-center max-md:justify-center max-md:w-full max-md:max-w-full max-md:order-1"
       >
         <div class="w-full max-md:max-w-[483px]">

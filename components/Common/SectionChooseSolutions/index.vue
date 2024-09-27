@@ -1,13 +1,20 @@
 <template>
-  <div class="w-full bg-[#F3F5FA] py-[60px] flex justify-center">
-    <div class="max-w-[1800px] w-full py-[60px] flex flex-row justify-center">
+  <div
+    class="w-full bg-[#F3F5FA] py-[60px] flex justify-center max-md:pb-[120px]"
+  >
+    <div
+      class="max-w-[1800px] w-full py-[60px] flex flex-row justify-center max-md:flex-col max-md:py-[0]"
+    >
       <!-- 1 -->
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
-        class="px-[100px] flex flex-col w-[60%]"
+        data-aos-once="true"
+        class="px-[100px] flex flex-col w-[60%] max-md:order-2 max-md:w-full max-md:px-[30px] max-xs:px-[15px]"
       >
-        <p class="text-[34px] text-[#37517E] mb-[8px] font-normal">
+        <p
+          class="text-[34px] text-[#37517E] mb-[8px] font-normal max-xs:text-[25px] max-xs:leading-8 max-xs:font-semibold"
+        >
           Why Choose Momotec LLC as Your Partner?
         </p>
         <p class="text-[15px] mb-[16px] text-[#848484]">
@@ -29,13 +36,14 @@
       <div
         data-aos="zoom-in"
         data-aos-duration="1000"
-        class="w-[40%] px-[15px] flex item-center justify-centermax-xl: items-center"
+        data-aos-once="true"
+        class="w-[40%] px-[15px] flex item-center justify-centermax-xl: items-center max-md:order-1 max-md:w-full"
       >
         <div
           class="w-full h-full flex item-center justify-center max-xl: items-center"
         >
           <img
-            class="max-h-[600px] max-w-[658px] w-full max-xl:max-w[500px] max-xl:max-h-[400px]"
+            class="max-h-[600px] max-w-[658px] w-full max-xl:max-w[500px] max-xl:max-h-[400px] max-md:max-w-[70%]"
             src="/img/why-us.png"
             alt=""
           />

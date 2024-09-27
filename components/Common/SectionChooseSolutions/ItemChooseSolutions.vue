@@ -3,7 +3,7 @@
     <div
       @click="togglevisibility"
       v-show="!isVisible"
-      class="px-[20px] py-[20px] rounded-[6px] flex flex-row justify-between bg-white mt-[15px] group transition duration-300 max-xl:max-w-[610px]"
+      class="px-[20px] py-[20px] rounded-[6px] flex flex-row justify-between bg-white mt-[15px] group transition duration-300 max-xl:max-w-[610px] max-md:max-w-full max-xs:h-[60px]"
     >
       <div class="flex flex-row items-center">
         <p class="text-[18px] text-[#47B2E4] mr-[10px] font-semibold">
@@ -37,7 +37,7 @@
     <div
       @click="togglevisibility"
       v-show="isVisible"
-      class="px-[20px] py-[20px] rounded-b-[0px] rounded-t-[6px] flex flex-row justify-between bg-white mt-[15px] group transition duration-300 max-xl:max-w-[610px]"
+      class="px-[20px] py-[20px] rounded-b-[0px] rounded-t-[6px] flex flex-row justify-between bg-white mt-[15px] group transition duration-300 max-xl:max-w-[610px] max-md:max-w-full"
     >
       <div class="flex flex-row items-center">
         <p class="text-[18px] text-[#47B2E4] mr-[10px] font-semibold">
@@ -70,7 +70,7 @@
 
     <div
       v-show="isVisible"
-      class="overflow-hidden rounded-b-[6px] px-[20px] py-[5px] bg-white"
+      class="overflow-hidden rounded-b-[6px] px-[20px] py-[5px] bg-white max-xl:max-w-[610px] max-md:max-w-full"
     >
       <p>{{ description }}</p>
     </div>

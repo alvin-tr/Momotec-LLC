@@ -4,6 +4,7 @@
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
+        data-aos-once="true"
         class="w-full mb-[30px] flex flex-col items-center justify-center relative"
       >
         <p

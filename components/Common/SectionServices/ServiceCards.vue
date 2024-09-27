@@ -3,7 +3,8 @@
     :data-aos="aosType"
     :data-aos-duration="duration"
     :data-aos-delay="delay"
-    class="py-[50px] px-[30px] max-h-[413px] max-w-[350px] bg-white flex flex-col shadow-2xl group hover:transform-up hover:shadow-3xl transition duration-500 max-lg:max-w-full max-lg:mb-[20px] max-lg:shadow-sm"
+    data-aos-once="true"
+    class="py-[50px] px-[30px] max-h-full max-w-[350px] bg-white flex flex-col shadow-2xl group hover:transform-up hover:shadow-3xl transition duration-500 max-lg:max-w-full max-lg:mb-[20px] max-lg:shadow-sm"
   >
     <div class="flex mb-[10px] w-[36px]">
       <Image :src="props.icon" />

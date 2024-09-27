@@ -3,6 +3,7 @@
     <div
       data-aos="fade-up"
       data-aos-duration="1000"
+      data-aos-once="true"
       class="max-w-[1140px] w-full max-lg:px-[45px]"
     >
       <div

@@ -1,12 +1,14 @@
 <template>
   <div
     :class="headerClass"
-    class="h-[72.5px] bg-deep-blue flex items-center justify-center fixed top-0 w-full z-50 max-lg:px-[50px]"
+    class="h-[72.5px] bg-deep-blue flex items-center justify-center fixed top-0 w-full z-50 max-lg:px-[50px] max-xs:px-[15px]"
   >
     <div
       class="max-w-[1140px] w-full items-center justify-between flex flex-row"
     >
-      <a class="text-[30px] uppercase text-white font-[500]" href=""
+      <a
+        class="text-[30px] uppercase text-white font-[500] max-xs:text-[20px]"
+        href=""
         >momotec llc</a
       >
 
@@ -33,7 +35,7 @@
         >
         <a
           href=""
-          class="text-white text-[14px] py-[6px] px-[25px] border-[2px] rounded-[20px] border-sky-blue hover:bg-sky-blue transition duration-200 ease-in font-semibold max-md:mr-[-250px] max-md:py-[8px]"
+          class="text-white text-[14px] py-[6px] px-[25px] border-[2px] rounded-[20px] border-sky-blue hover:bg-sky-blue transition duration-200 ease-in font-semibold max-md:mr-[-250px] max-md:py-[8px] max-sm:mr-0"
           >Get Started</a
         >
       </div>

@@ -1,23 +1,31 @@
 <template>
   <div class="py-[60px] w-full flex justify-center">
-    <div class="max-w-[1140px] flex flex-row w-full max-lg:px-[30px]">
+    <div
+      class="max-w-[1140px] flex flex-row w-full max-lg:px-[30px] max-md:flex-col"
+    >
       <!-- 1 -->
       <div
         data-aos="fade-up-right"
         data-aos-duration="1000"
-        class="w-[50%] px-[15px] max-lg:flex max-lg:items-center"
+        data-aos-once="true"
+        class="w-[50%] px-[15px] max-lg:flex max-lg:items-center max-md:w-full max-md:flex max-md:items-center max-md:justify-center max-md:min-w-[690px] max-xs:flex max-xs:items-center max-xs:min-w-[300px]"
       >
-        <img class="max-lg:max-w-[410px]" src="/img/skills.png" alt="" />
+        <img
+          class="max-lg:max-w-[410px] max-md:w-full max-md:max-w-[690px] max-xs:max-w-[375px]"
+          src="/img/skills.png"
+          alt=""
+        />
       </div>
 
       <!-- 2 -->
       <div
         data-aos="fade-up-left"
         data-aos-duration="1000"
-        class="w-[50%] px-[15px]"
+        data-aos-once="true"
+        class="w-[50%] px-[15px] max-md:w-full max-md:py-[24px]"
       >
         <h3
-          class="text-[32px] text-dark-blue mb-[8px] font-bold font-[Poppins]"
+          class="text-[32px] text-dark-blue mb-[8px] font-bold font-[Poppins] max-xs:text-[25px]"
         >
           Technologies we use
         </h3>
